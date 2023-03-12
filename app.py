@@ -1,8 +1,5 @@
 from flask import Flask, render_template, url_for, redirect, flash, request
 from flask_mail import Mail, Message
-from werkzeug.security import generate_password_hash, check_password_hash
-from werkzeug.exceptions import BadRequestKeyError
-import datetime as dt
 import json
 import random
 import os
