@@ -1,0 +1,55 @@
+{
+  "about": {
+    "education": [
+      ["Persuing Engineering Degree in IT", "From Mumbai University"]
+    ],
+    "courses": [
+      ["100 Days of Code: Python Pro Bootcamp", "By Dr. Angela Yu, Udemy"],
+      ["Web Devlopment Bootcamp", "By Dr. Angela Yu, Udemy"]
+    ],
+    "programming": [
+      {
+        "language": "Python",
+        "knowledge": 90,
+        "icon": "..\\static\\image\\python.png"
+      },
+      {
+        "language": "HTML / CSS",
+        "knowledge": 70,
+        "icon": "..\\static\\image\\html-css.png"
+      },
+      {
+        "language": "JavaScript",
+        "knowledge": 30,
+        "icon": "..\\static\\image\\js.png"
+      },
+      {
+        "language": "C",
+        "knowledge": 10,
+        "icon": "..\\static\\image\\c.png"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Breakout-game",
+      "info": "Breakout is a classic arcade-style game where the player controls a paddle at the bottom of the screen and uses it to bounce a ball upward to break a wall of bricks located at the top of the screen. The Turtle module in Python is used to create a graphical user interface for the game, including the paddle, ball, and bricks.",
+      "image": "..\\static\\image\\projects\\breakout-game.png",
+      "tags": ["python"],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/breakout-game/blob/master/main.py",
+        "try": "https://replit.com/@ajaykumarn3000/breakout-game#main.py"
+      }
+    },
+    {
+      "name": "Snake-game",
+      "info": "The Snake game is a classic arcade-style game where the player controls a snake that moves around the screen eating food. The Turtle module in Python is used to create a graphical user interface for the game, including the snake and food. The player moves the snake around the screen using the arrow keys on their keyboard.",
+      "image": "..\\static\\image\\projects\\snake-game.png",
+      "tags": ["python"],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/",
+        "try": "#"
+      }
+    }
+  ]
+}
