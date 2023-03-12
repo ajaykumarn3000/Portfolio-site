@@ -34,7 +34,7 @@ def homepage():
         name = request.form['name']
         email = request.form['email']
         message = request.form['message']
-        # send_mail(name, email, message)
+        send_mail(name, email, message)
         flash("Message sent Successfully!!")
         return redirect(url_for("homepage"))
     return render_template("index.html", data=data)
