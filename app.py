@@ -8,7 +8,7 @@ import os
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "random string"
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
