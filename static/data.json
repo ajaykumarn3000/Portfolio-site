@@ -1,11 +1,20 @@
 {
   "about": {
     "education": [
-      ["Persuing Engineering Degree in IT", "From Mumbai University"]
+      [
+        "Persuing Engineering Degree in IT",
+        "From Mumbai University"
+      ]
     ],
     "courses": [
-      ["100 Days of Code: Python Pro Bootcamp", "By Dr. Angela Yu, Udemy"],
-      ["Web Devlopment Bootcamp", "By Dr. Angela Yu, Udemy"]
+      [
+        "100 Days of Code: Python Pro Bootcamp",
+        "By Dr. Angela Yu, Udemy"
+      ],
+      [
+        "Web Devlopment Bootcamp",
+        "By Dr. Angela Yu, Udemy"
+      ]
     ],
     "programming": [
       {
@@ -35,17 +44,51 @@
       "name": "Breakout-game",
       "info": "Breakout is a classic arcade-style game where the player controls a paddle at the bottom of the screen and uses it to bounce a ball upward to break a wall of bricks located at the top of the screen. The Turtle module in Python is used to create a graphical user interface for the game, including the paddle, ball, and bricks.",
       "image": "..\\static\\image\\projects\\breakout-game.png",
-      "tags": ["python"],
+      "tags": [
+        "python"
+      ],
       "links": {
         "code": "https://github.com/ajayKumarNadar/breakout-game/blob/master/main.py",
         "try": "https://replit.com/@ajaykumarn3000/breakout-game#main.py"
       }
     },
     {
+      "name": "TodoS",
+      "info": "TodoS is a To-do list manager built with Flask Python, its a powerful tool that allows users to keep track of their daily tasks and responsibilities in a simple and intuitive way. With a responsive design, it is optimized for use on any device, including smartphones, tablets, and desktop computers, ensuring that users can access and manage their to-do list from anywhere.",
+      "image": "..\\static\\image\\projects\\todolist.png",
+      "tags": [
+        "python",
+        "html",
+        "css",
+        "javascript"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/todo-list",
+        "visit": "#"
+      }
+    },
+    {
+      "name": "Shopify",
+      "info": "Shopify is an online shop where customers will be able to browse and purchase a wide range of electronics, including phones, tablets, laptops, and more. Shopify is a responsive site, meaning it will automatically adjust to different screen sizes and devices for a seamless shopping experience. Its made with Flask and has payment gateway integration by Stripe.",
+      "image": "..\\static\\image\\projects\\shopify.png",
+      "tags": [
+        "python",
+        "html",
+        "css",
+        "javascript"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/an-online-shop",
+        "visit": "https://shopify-nwlv.onrender.com/"
+      }
+    },
+    {
       "name": "Snake-game",
       "info": "The Snake game is a classic arcade-style game where the player controls a snake that moves around the screen eating food. The Turtle module in Python is used to create a graphical user interface for the game, including the snake and food. The player moves the snake around the screen using the arrow keys on their keyboard.",
       "image": "..\\static\\image\\projects\\snake-game.png",
-      "tags": ["python"],
+      "tags": [
+        "python"
+      ],
       "links": {
         "code": "https://github.com/ajayKumarNadar/",
         "try": "#"
