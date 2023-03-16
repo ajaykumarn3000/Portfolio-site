@@ -1,7 +1,6 @@
 from flask import Flask, render_template, url_for, redirect, flash, request
 from flask_mail import Mail, Message
 import json
-import random
 import os
 
 # This is your test secret API key.

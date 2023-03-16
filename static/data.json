@@ -41,7 +41,7 @@
   },
   "projects": [
     {
-      "name": "Breakout-game",
+      "name": "Breakout Game",
       "info": "Breakout is a classic arcade-style game where the player controls a paddle at the bottom of the screen and uses it to bounce a ball upward to break a wall of bricks located at the top of the screen. The Turtle module in Python is used to create a graphical user interface for the game, including the paddle, ball, and bricks.",
       "image": "..\\static\\image\\projects\\breakout-game.png",
       "tags": [
@@ -83,7 +83,7 @@
       }
     },
     {
-      "name": "Snake-game",
+      "name": "Snake Game",
       "info": "The Snake game is a classic arcade-style game where the player controls a snake that moves around the screen eating food. The Turtle module in Python is used to create a graphical user interface for the game, including the snake and food. The player moves the snake around the screen using the arrow keys on their keyboard.",
       "image": "..\\static\\image\\projects\\snake-game.png",
       "tags": [
@@ -91,6 +91,42 @@
       ],
       "links": {
         "code": "https://github.com/ajayKumarNadar/",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Pomodoro",
+      "info": "Pomodoro app built with Tkinter in Python is a productivity tool that utilizes the Pomodoro technique, which is a time management method that breaks down work into intervals of 25 minutes, separated by short breaks. The app provides a simple and user-friendly interface that allows you to focus on your tasks and manage your time effectively.",
+      "image": "..\\static\\image\\projects\\pomodoro-app.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Password Manager",
+      "info": "Password-manager app built with Tkinter in Python is a secure and convenient tool that allows you to store all of your passwords for different sites and apps in one place. With this app, you no longer have to worry about forgetting your passwords or using the same weak passwords for multiple accounts. The app also includes a random password generator that creates strong and unique passwords that are difficult for hackers to crack.",
+      "image": "..\\static\\image\\projects\\password-manager.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Pong Game",
+      "info": "The Pong game built with Turtle Python is a classic arcade game that provides hours of fun and entertainment. The objective of the game is to bounce a ball back and forth between two paddles, while trying to score points by getting the ball past your opponent's paddle.",
+      "image": "..\\static\\image\\projects\\pong-game.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
         "try": "#"
       }
     }
