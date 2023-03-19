@@ -255,14 +255,14 @@
                 />
                 <div>
                     {% if project["links"]["visit"] %}
-                        <a href="{{ project["links"]["visit"] }}"><i class="fa-solid fa-globe"></i>
+                        <a href="{{ project["links"]["visit"] }}" target="_blank"><i class="fa-solid fa-globe"></i>
                             Visit</a>
                     {% endif %}
                     {% if project["links"]["try"] %}
-                        <a href="{{ project["links"]["try"] }}"><i class="fa-solid fa-play"></i> Try</a>
+                        <a href="{{ project["links"]["try"] }}" target="_blank"><i class="fa-solid fa-play"></i> Try</a>
                     {% endif %}
                     {% if project["links"]["code"] %}
-                        <a href="{{ project["links"]["code"] }}"><i class="fa-brands fa-github"></i>
+                        <a href="{{ project["links"]["code"] }}" target="_blank"><i class="fa-brands fa-github"></i>
                             Code</a>
                     {% endif %}
                 </div>
@@ -357,7 +357,7 @@
 
 <footer>
     <div class="social-links">
-        <a href="https://github.com/ajayKumarNadar"
+        <a href="https://github.com/ajayKumarNadar" target="_blank"
         ><i class="fa-brands fa-github"></i
         ></a>
         <a href=""><i class="fa-brands fa-linkedin"></i></a>
