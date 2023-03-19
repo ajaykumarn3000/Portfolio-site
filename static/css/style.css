@@ -458,7 +458,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 1rem;
+    padding: 0.3rem;
   }
   .navbar-brand {
     font-size: 2rem;
