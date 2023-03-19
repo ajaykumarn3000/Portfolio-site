@@ -129,6 +129,49 @@
         "code": "#",
         "try": "#"
       }
+    },
+    {
+      "name": "Blog site",
+      "info": "My blog site made with Python Flask-Framework, HTML, CSS, and Bootstrap is a platform that allows me to share my thoughts, ideas, and experiences with a wider audience. The site features a clean and modern design, with a user-friendly interface that is easy to navigate and interact with.",
+      "image": "..\\static\\image\\projects\\blog-site.png",
+      "tags": [
+        "python",
+        "html",
+        "css",
+        "javascript"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/ajaykumar-blog",
+        "visit": "https://ajaykumar-blog.onrender.com"
+      }
+    },
+    {
+      "name": "Cafe & Wifi",
+      "info": "Cafe & WiFi site made with Python Flask, HTML, and CSS is a valuable resource for users who are looking for work-friendly cafes in their area. Whether they are freelancers, remote workers, or students, this site helps users find a comfortable and productive environment where they can work, study, and connect with others.",
+      "image": "..\\static\\image\\projects\\cafe-and-wifi.png",
+      "tags": [
+        "python",
+        "html",
+        "css"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/cafe-and-wifi",
+        "visit": "https://cafeandwifi.onrender.com/"
+      }
+    },
+    {
+      "name": "Jokes Yard",
+      "info": "Jokes Yard site is a web-based platform that presents a wide variety of jokes to its users. The site is built using Jokes API, which provides an extensive database of jokes from different categories, including puns, one-liners, knock-knock jokes, and many more.",
+      "image": "..\\static\\image\\projects\\jokesyard.png",
+      "tags": [
+        "python",
+        "html",
+        "css"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/jokes-API",
+        "visit": "https://jokesyard.onrender.com/"
+      }
     }
   ]
 }
