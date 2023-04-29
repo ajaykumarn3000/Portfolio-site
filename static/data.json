@@ -34,7 +34,7 @@
       },
       {
         "language": "C",
-        "knowledge": 10,
+        "knowledge": 40,
         "icon": "..\\static\\image\\c.png"
       }
     ]
@@ -171,6 +171,34 @@
       "links": {
         "code": "https://github.com/ajayKumarNadar/jokes-API",
         "visit": "https://jokesyard.onrender.com/"
+      }
+    },
+    {
+      "name": "Image Palette",
+      "info": "This website allows users to upload their images, which are then processed using Python's Pillow library to extract the dominant colors. These colors are then displayed on the webpage as a color palette, along with their hexadecimal values, making it easy for users to use them in their designs.",
+      "image": "..\\static\\image\\projects\\img-to-color-palette.png",
+      "tags": [
+        "python",
+        "html",
+        "css"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/image-color-pallette",
+        "visit": "https://image-palette.onrender.com/"
+      }
+    },
+    {
+      "name": "DrumKit",
+      "info": "This website has a sleek and modern design, with a user-friendly interface that makes it easy to navigate. The drum kit is displayed on the webpage, with each drum element represented by a different button. Users can click on each button to play the corresponding sound, or use their computer keyboard to trigger the sounds.",
+      "image": "..\\static\\image\\projects\\drum-kit.png",
+      "tags": [
+        "javascript",
+        "html",
+        "css"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/drum-kit",
+        "visit": "https://ajaykumarnadar.github.io/drum-kit/"
       }
     }
   ]
