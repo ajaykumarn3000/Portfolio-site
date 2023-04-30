@@ -200,6 +200,30 @@
         "code": "https://github.com/ajayKumarNadar/drum-kit",
         "visit": "https://ajaykumarnadar.github.io/drum-kit/"
       }
+    },
+    {
+      "name": "Watermark.exe",
+      "info": "The user interface of the app is designed using tkinter, providing a clean and intuitive interface that is easy to use. Users can choose an image to be watermarked from their local directory, and then select the watermark image to be applied. The app then automatically applies the watermark image to the original image, saving the new watermarked image to the desired location.",
+      "image": "..\\static\\image\\projects\\watermark-exe.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/watermark_desktop_app",
+        "visit": "https://replit.com/@ajaykumarn3000/watermark-desktop-app#main.py"
+      }
+    },
+    {
+      "name": "Typing speed test",
+      "info": "The typing speed test app is a simple yet effective tool built using Python and the tkinter library. This app is designed to measure a user's typing speed by presenting them with a series of words to type. The user can type at their own pace, and the app automatically calculates their typing speed in words per minute (WPM).",
+      "image": "..\\static\\image\\projects\\typing-speed-test.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/typing-speed-test",
+        "visit": "https://replit.com/@ajaykumarn3000/typing-speed-test#main.py"
+      }
     }
   ]
 }
