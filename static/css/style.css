@@ -95,13 +95,37 @@ header {
 header h1 {
   text-shadow: 2px 2px var(--blue);
   font-family: var(--cursive2);
-  font-size: 6rem;
+  font-size: 8rem;
   cursor: default;
+  transition: font-size 0.3s ease-in-out;
+  position: relative;
+}
+header h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* move the underline to the center */
+  transform: translateX(-50%) scaleX(0); /* center the underline horizontally and hide it */
+  width: 0; /* set the initial width to 0 */
+  height: 2px;
+  background-color: var(--grey);
+  box-shadow: 2px 2px var(--black);
+  transition: transform 0.2s ease-out, width 0.2s ease-out; /* add a transition effect to both transform and width */
+  transform-origin: center; /* set the transform origin to the center */
 }
 header h3 {
   text-shadow: 1px 1px var(--blue);
   cursor: default;
-  font-family: var(--cursive1);
+  font-family: var(--cursive1);  
+  transition: font-size 0.3s ease-in-out;
+}
+header h1:hover::after {
+  width: 80%; /* set the width to 100% to expand the underline */
+  transform: translateX(-50%) scaleX(1); /* center the underline horizontally and expand it from the center */
+}
+
+header h1:hover {
+  font-size: 10rem;
 }
 header h1:hover {
   color: var(--peal);
@@ -183,6 +207,9 @@ header h3:hover #me {
 .about .education div {
   margin-bottom: 1rem;
 }
+.about .education h5 {
+  font-weight: 600;
+}
 .about .education span {
   display: block;
   padding-left: 15px;
@@ -212,6 +239,9 @@ header h3:hover #me {
   border-radius: 2px;
   border-left: 2px solid var(--peal);
 
+}
+.about .skills h5 {
+  font-weight: 600;
 }
 .about .skills hr {
   visibility: hidden;
@@ -428,8 +458,14 @@ footer {
   .navbar {
     padding: 1rem;
   }
+  header h1:hover {
+    font-size: 8rem;
+  }
 }
 @media screen and (max-width: 992px) {
+  header h1:hover {
+    font-size: 9rem;
+  }
   .about,
   .projects {
     height: auto;
@@ -474,6 +510,9 @@ footer {
   header h1 {
     font-size: 4.5rem;
   }
+  header h1:hover {
+    font-size: 7rem;
+  }
   .about .col-lg-4 {
     padding: 1rem 2rem;
   }
@@ -498,6 +537,9 @@ footer {
   /* .project-card .row {
     flex-direction: row;
   } */
+  header h1:hover {
+    font-size: 6rem;
+  }
   .project-image img {
     height: auto;
     width: 100%;
@@ -506,6 +548,9 @@ footer {
 @media screen and (max-width: 510px) {
   .projects {
     padding: 2rem 1rem;
+  }
+  header h1:hover {
+    font-size: 4.5rem;
   }
   .project-card {
     padding: 1rem;
