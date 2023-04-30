@@ -41,33 +41,6 @@
   },
   "projects": [
     {
-      "name": "Breakout Game",
-      "info": "Breakout is a classic arcade-style game where the player controls a paddle at the bottom of the screen and uses it to bounce a ball upward to break a wall of bricks located at the top of the screen. The Turtle module in Python is used to create a graphical user interface for the game, including the paddle, ball, and bricks.",
-      "image": "..\\static\\image\\projects\\breakout-game.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "https://github.com/ajayKumarNadar/breakout-game/blob/master/main.py",
-        "try": "https://replit.com/@ajaykumarn3000/breakout-game#main.py"
-      }
-    },
-    {
-      "name": "TodoS",
-      "info": "TodoS is a To-do list manager built with Flask Python, its a powerful tool that allows users to keep track of their daily tasks and responsibilities in a simple and intuitive way. With a responsive design, it is optimized for use on any device, including smartphones, tablets, and desktop computers, ensuring that users can access and manage their to-do list from anywhere.",
-      "image": "..\\static\\image\\projects\\todolist.png",
-      "tags": [
-        "python",
-        "html",
-        "css",
-        "javascript"
-      ],
-      "links": {
-        "code": "https://github.com/ajayKumarNadar/todo-list",
-        "visit": "#"
-      }
-    },
-    {
       "name": "Shopify",
       "info": "Shopify is an online shop where customers will be able to browse and purchase a wide range of electronics, including phones, tablets, laptops, and more. Shopify is a responsive site, meaning it will automatically adjust to different screen sizes and devices for a seamless shopping experience. Its made with Flask and has payment gateway integration by Stripe.",
       "image": "..\\static\\image\\projects\\shopify.png",
@@ -83,51 +56,18 @@
       }
     },
     {
-      "name": "Snake Game",
-      "info": "The Snake game is a classic arcade-style game where the player controls a snake that moves around the screen eating food. The Turtle module in Python is used to create a graphical user interface for the game, including the snake and food. The player moves the snake around the screen using the arrow keys on their keyboard.",
-      "image": "..\\static\\image\\projects\\snake-game.png",
+      "name": "TodoS",
+      "info": "TodoS is a To-do list manager built with Flask Python, its a powerful tool that allows users to keep track of their daily tasks and responsibilities in a simple and intuitive way. With a responsive design, it is optimized for use on any device, including smartphones, tablets, and desktop computers, ensuring that users can access and manage their to-do list from anywhere.",
+      "image": "..\\static\\image\\projects\\todolist.png",
       "tags": [
-        "python"
+        "python",
+        "html",
+        "css",
+        "javascript"
       ],
       "links": {
-        "code": "https://github.com/ajayKumarNadar/",
-        "try": "#"
-      }
-    },
-    {
-      "name": "Pomodoro",
-      "info": "Pomodoro app built with Tkinter in Python is a productivity tool that utilizes the Pomodoro technique, which is a time management method that breaks down work into intervals of 25 minutes, separated by short breaks. The app provides a simple and user-friendly interface that allows you to focus on your tasks and manage your time effectively.",
-      "image": "..\\static\\image\\projects\\pomodoro-app.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "#",
-        "try": "#"
-      }
-    },
-    {
-      "name": "Password Manager",
-      "info": "Password-manager app built with Tkinter in Python is a secure and convenient tool that allows you to store all of your passwords for different sites and apps in one place. With this app, you no longer have to worry about forgetting your passwords or using the same weak passwords for multiple accounts. The app also includes a random password generator that creates strong and unique passwords that are difficult for hackers to crack.",
-      "image": "..\\static\\image\\projects\\password-manager.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "#",
-        "try": "#"
-      }
-    },
-    {
-      "name": "Pong Game",
-      "info": "The Pong game built with Turtle Python is a classic arcade game that provides hours of fun and entertainment. The objective of the game is to bounce a ball back and forth between two paddles, while trying to score points by getting the ball past your opponent's paddle.",
-      "image": "..\\static\\image\\projects\\pong-game.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "#",
-        "try": "#"
+        "code": "https://github.com/ajayKumarNadar/todo-list",
+        "visit": "#"
       }
     },
     {
@@ -157,6 +97,101 @@
       "links": {
         "code": "https://github.com/ajayKumarNadar/cafe-and-wifi",
         "visit": "https://cafeandwifi.onrender.com/"
+      }
+    },
+    {
+      "name": "Password Manager",
+      "info": "Password-manager app built with Tkinter in Python is a secure and convenient tool that allows you to store all of your passwords for different sites and apps in one place. With this app, you no longer have to worry about forgetting your passwords or using the same weak passwords for multiple accounts. The app also includes a random password generator that creates strong and unique passwords that are difficult for hackers to crack.",
+      "image": "..\\static\\image\\projects\\password-manager.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Pomodoro",
+      "info": "Pomodoro app built with Tkinter in Python is a productivity tool that utilizes the Pomodoro technique, which is a time management method that breaks down work into intervals of 25 minutes, separated by short breaks. The app provides a simple and user-friendly interface that allows you to focus on your tasks and manage your time effectively.",
+      "image": "..\\static\\image\\projects\\pomodoro-app.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Watermark.exe",
+      "info": "The user interface of the app is designed using tkinter, providing a clean and intuitive interface that is easy to use. Users can choose an image to be watermarked from their local directory, and then select the watermark image to be applied. The app then automatically applies the watermark image to the original image, saving the new watermarked image to the desired location.",
+      "image": "..\\static\\image\\projects\\watermark-exe.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/watermark_desktop_app",
+        "visit": "https://replit.com/@ajaykumarn3000/watermark-desktop-app#main.py"
+      }
+    },
+    {
+      "name": "Typing speed test",
+      "info": "The typing speed test app is a simple yet effective tool built using Python and the tkinter library. This app is designed to measure a user's typing speed by presenting them with a series of words to type. The user can type at their own pace, and the app automatically calculates their typing speed in words per minute (WPM).",
+      "image": "..\\static\\image\\projects\\typing-speed-test.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/typing-speed-test",
+        "visit": "https://replit.com/@ajaykumarn3000/typing-speed-test#main.py"
+      }
+    },
+    {
+      "name": "Breakout Game",
+      "info": "Breakout is a classic arcade-style game where the player controls a paddle at the bottom of the screen and uses it to bounce a ball upward to break a wall of bricks located at the top of the screen. The Turtle module in Python is used to create a graphical user interface for the game, including the paddle, ball, and bricks.",
+      "image": "..\\static\\image\\projects\\breakout-game.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/breakout-game/blob/master/main.py",
+        "try": "https://replit.com/@ajaykumarn3000/breakout-game#main.py"
+      }
+    },
+    {
+      "name": "Space Invaders",
+      "info": "The space invaders game is a fun and engaging arcade-style game built using Python and the tkinter library. This game is designed to provide users with a challenging and exciting experience as they battle against invading aliens.",
+      "image": "..\\static\\image\\projects\\space-invaders.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/space-invaders"
+      }
+    },
+    {
+      "name": "Snake Game",
+      "info": "The Snake game is a classic arcade-style game where the player controls a snake that moves around the screen eating food. The Turtle module in Python is used to create a graphical user interface for the game, including the snake and food. The player moves the snake around the screen using the arrow keys on their keyboard.",
+      "image": "..\\static\\image\\projects\\snake-game.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/",
+        "try": "#"
+      }
+    },
+    {
+      "name": "Pong Game",
+      "info": "The Pong game built with Turtle Python is a classic arcade game that provides hours of fun and entertainment. The objective of the game is to bounce a ball back and forth between two paddles, while trying to score points by getting the ball past your opponent's paddle.",
+      "image": "..\\static\\image\\projects\\pong-game.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "#",
+        "try": "#"
       }
     },
     {
@@ -199,41 +234,6 @@
       "links": {
         "code": "https://github.com/ajayKumarNadar/drum-kit",
         "visit": "https://ajaykumarnadar.github.io/drum-kit/"
-      }
-    },
-    {
-      "name": "Watermark.exe",
-      "info": "The user interface of the app is designed using tkinter, providing a clean and intuitive interface that is easy to use. Users can choose an image to be watermarked from their local directory, and then select the watermark image to be applied. The app then automatically applies the watermark image to the original image, saving the new watermarked image to the desired location.",
-      "image": "..\\static\\image\\projects\\watermark-exe.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "https://github.com/ajayKumarNadar/watermark_desktop_app",
-        "visit": "https://replit.com/@ajaykumarn3000/watermark-desktop-app#main.py"
-      }
-    },
-    {
-      "name": "Typing speed test",
-      "info": "The typing speed test app is a simple yet effective tool built using Python and the tkinter library. This app is designed to measure a user's typing speed by presenting them with a series of words to type. The user can type at their own pace, and the app automatically calculates their typing speed in words per minute (WPM).",
-      "image": "..\\static\\image\\projects\\typing-speed-test.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "https://github.com/ajayKumarNadar/typing-speed-test",
-        "visit": "https://replit.com/@ajaykumarn3000/typing-speed-test#main.py"
-      }
-    },
-    {
-      "name": "Space Invaders",
-      "info": "The space invaders game is a fun and engaging arcade-style game built using Python and the tkinter library. This game is designed to provide users with a challenging and exciting experience as they battle against invading aliens.",
-      "image": "..\\static\\image\\projects\\space-invaders.png",
-      "tags": [
-        "python"
-      ],
-      "links": {
-        "code": "https://github.com/ajayKumarNadar/space-invaders"
       }
     }
   ]
