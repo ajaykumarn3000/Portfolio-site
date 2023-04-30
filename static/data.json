@@ -224,6 +224,17 @@
         "code": "https://github.com/ajayKumarNadar/typing-speed-test",
         "visit": "https://replit.com/@ajaykumarn3000/typing-speed-test#main.py"
       }
+    },
+    {
+      "name": "Space Invaders",
+      "info": "The space invaders game is a fun and engaging arcade-style game built using Python and the tkinter library. This game is designed to provide users with a challenging and exciting experience as they battle against invading aliens.",
+      "image": "..\\static\\image\\projects\\space-invaders.png",
+      "tags": [
+        "python"
+      ],
+      "links": {
+        "code": "https://github.com/ajayKumarNadar/space-invaders"
+      }
     }
   ]
 }
