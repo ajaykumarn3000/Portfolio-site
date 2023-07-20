@@ -19,18 +19,23 @@
     "programming": [
       {
         "language": "Python",
-        "knowledge": 90,
+        "knowledge": 80,
         "icon": "..\\static\\image\\python.png"
       },
       {
-        "language": "HTML / CSS",
-        "knowledge": 70,
-        "icon": "..\\static\\image\\html-css.png"
+        "language": "HTML | CSS | JavaScript",
+        "knowledge": 80,
+        "icon": "..\\static\\image\\front-end.png"
       },
       {
-        "language": "JavaScript",
-        "knowledge": 30,
-        "icon": "..\\static\\image\\js.png"
+        "language": "Node.js | Express.js",
+        "knowledge": 70,
+        "icon": "..\\static\\image\\nodejs.png"
+      },
+      {
+        "language": "MongoDB",
+        "knowledge": 50,
+        "icon": "..\\static\\image\\mongodb.png"
       },
       {
         "language": "C",
